@@ -13,7 +13,7 @@ mkdocs serve
 This will open up the website in your web browser and automatically update it whenever you save a file.
 
 ## Editing In VSCode
-Install YAML extension by following [the reccomendatio here](https://squidfunk.github.io/mkdocs-material/creating-your-site/?h=vscode#minimal-configuration).
+Install YAML extension by following [the reccomendation here](https://squidfunk.github.io/mkdocs-material/creating-your-site/?h=vscode#minimal-configuration).
 I don't reccoment using the built-in markdown viewer in VSCode to edit the code.
 
 ## Using GIT
