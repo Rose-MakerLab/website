@@ -15,3 +15,20 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+## Websites For Assistance
+
+* [Using Material](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)
+* [Default MkDocs Website](https://www.mkdocs.org/)
+
+
+## Some Code Just For Fun
+
+```python
+def run():
+    for i in range(10):
+        print(f"Itteration {i}")
+    print("Done")
+run()
+```

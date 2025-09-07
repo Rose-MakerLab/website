@@ -2,6 +2,26 @@ site_name: MakerLab Guide
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  language: en 
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: makerlab-light
+      toggle:
+        icon: material/brightness-7 
+
+
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: makerlab-dark
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/color_schemes.css
 
 markdown_extensions:
 
