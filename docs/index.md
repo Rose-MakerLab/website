@@ -1,34 +1,26 @@
-# Welcome to MkDocs
+# MakerLab Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![](./assets/logo.png)
 
-## Commands
+## What is the MakerLab?
+MakerLab is a BIC team that provides tools and a work area in the KIC to enable the creation of Rose-Hulman students' personal projects.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Gaining Access to the MakerLab
+1. Take the BIC/KIC access quizzes on Moodle
+    - Take the Online Training only takes 1-2 hrs and is found [by following this link](https://moodle.rose-hulman.edu/course/view.php?id=118553#).
+    - For the final group selection step, say that you are a member of the `MakerLab` team.
+2. Join the [MakerLab Discord](join_discord.md).
+3. Take a Welcome To MakerLab Class offered by MakerLab
+    - These are offered by MakerLab Officers, when they have been decided on, the dates and times will be posted on Discord, and Campus Groups will have a signup available.
+    - You may reach out to the Machine's officer to learn when the next class is available.
+4. Take additional training on specific machines in the MakerLab
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
-## Websites For Assistance
-
-* [Using Material](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)
-* [Default MkDocs Website](https://www.mkdocs.org/)
+!!! bug "TODO - Add additional details"
+    This section should be fool-proof and easy to follow along with, including links to necessary cites and images of where to click to get where you need to go.
 
 
-## Some Code Just For Fun
+!!! bug "TODO - Pages to create"
 
-```python
-def run():
-    for i in range(10):
-        print(f"Itteration {i}")
-    print("Done")
-run()
-```
+    * We should also link to a page that notes how classes in the MakerLab are setup.
+    * We should also link to a page that explains what is available in the makerlab.
+    * We should also link to a page that explains the difference between the BIC/KIC, MakerLab, and Design Teams.
