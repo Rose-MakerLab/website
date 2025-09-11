@@ -18,7 +18,11 @@ Lab Assistants are MakerLab members that want a slightly larger role in the Make
 |--|--|--|
 |...|...|...|
 
+## Faculty Advisor
+The faculty member charge with overseeing the operations of the club, who may intervene if needed.
+
 !!! bug "TODO - Fill in this Chart and add context"
-    This page should have the above charts filled out.
-    Add a way for people to easily indicate interest in being a Lab Assistant.
-    Explain the Officer Election Process.
+    - This page should have the above charts filled out.
+    - Fill in information about the Faculty Advisor better.
+    - Add a way for people to easily indicate interest in being a Lab Assistant.
+    - Explain the Officer Election Process.

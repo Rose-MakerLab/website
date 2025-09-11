@@ -5,6 +5,9 @@ theme:
   language: en 
   logo: assets/logo.png
   favicon: assets/favicon.png
+  features:
+    - navigation.indexes # Have index.md be the linked to by the folder, not a page within it.
+    - toc.follow 
   palette:
     # Palette toggle for light mode
     - scheme: makerlab-light
@@ -19,6 +22,28 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+# To have it automatically construct the nav, you can simply omit this entire section.
+nav:
+  - index.md 
+  - join_discord.md
+  - Available Tools:
+    - Available Tools\index.md
+    - Available Tools\laser_cutter.md
+  - makerlab_classes.md
+  - current_officers.md
+  - officer_weekly_meetings.md
+  - about_makerlab.md
+  - The Constitution:
+    - MakerLab Constitution\index.md
+    - MakerLab Constitution\active_constitution.md
+  - Editing Website:
+    - Editing This Website\index.md
+    - Editing This Website\Who Can Edit.md
+    - Editing This Website\Instructions.md
+
+
+
 
 extra_css:
   - stylesheets/color_schemes.css
