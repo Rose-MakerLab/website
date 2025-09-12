@@ -24,6 +24,8 @@ theme:
         name: Switch to light mode
 
 # To have it automatically construct the nav, you can simply omit this entire section.
+# Important notes: For paths, make sure you use a forward slash "/", a backslash "\" will work on windows, but not on the linux server deploying this.
+# ALWAYS USE FORWARD SLASH "/"
 nav:
   - index.md 
   - join_discord.md
