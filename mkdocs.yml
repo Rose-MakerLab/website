@@ -28,7 +28,7 @@ theme:
 # ALWAYS USE FORWARD SLASH "/"
 nav:
   - index.md 
-  - join_discord.md
+  - get_connected.md
   - Available Tools:
     - Available Tools/index.md
     - Available Tools/laser_cutter.md

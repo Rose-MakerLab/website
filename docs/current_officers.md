@@ -1,6 +1,6 @@
 # Current Officers
 
-The people listed here are official representatives of the MakerLab and are good people to reach out to if you have a particular problem or suggestion. However, if you have a more general problem, it is suggested that you put your message in the [MakerLab Discord](join_discord.md) and include `@officer` to ping all officers to make sure they see it.
+The people listed here are official representatives of the MakerLab and are good people to reach out to if you have a particular problem or suggestion. However, if you have a more general problem, it is suggested that you put your message in the [MakerLab Discord](get_connected.md#join-discord) and include `@officer` to ping all officers to make sure they see it.
 
 ## Officers
 MakerLab Officers are elected by members and are responsible for operating the MakerLab.
