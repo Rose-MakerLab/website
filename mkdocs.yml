@@ -32,6 +32,9 @@ nav:
   - Available Tools:
     - Available Tools/index.md
     - Available Tools/laser_cutter.md
+  - Policies:
+    - Policies/index.md
+    - Policies/lost_and_found.md
   - makerlab_classes.md
   - current_officers.md
   - officer_weekly_meetings.md
