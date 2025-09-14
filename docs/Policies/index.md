@@ -5,3 +5,5 @@ The following policies are maintained to ensure some consistancy in the operatio
 - ...
 ## Other Policies
 - [Lost & Found Policy](lost_and_found.md)
+## External Policies
+- [BIC/KIC Access Policy](bic_kic_access.md)

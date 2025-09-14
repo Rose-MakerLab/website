@@ -35,8 +35,10 @@ nav:
   - Policies:
     - Policies/index.md
     - Policies/lost_and_found.md
+    - Policies/bic_kic_access.md
   - makerlab_classes.md
   - current_officers.md
+  - FAQ.md
   - officer_weekly_meetings.md
   - about_makerlab.md
   - Constitution:

@@ -4,7 +4,9 @@ Use the slips provided in MakerLab.
 
 ??? note "Background Information"
     **Authority:** MakerLab Officers
-    
+
+
+![](../assets/images/MakerLab_lost_and_found_flowchart.png)
 
 
 !!! bug "TODO - Fill Out Page"
