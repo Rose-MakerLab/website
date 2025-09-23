@@ -44,6 +44,9 @@ nav:
   - Constitution:
     - MakerLab Constitution/index.md
     - MakerLab Constitution/active_constitution.md
+  - Public Documents:
+    - Public Documents/index.md
+    - Public Documents/project_slip_printout.md
   - Editing Website:
     - Editing This Website/index.md
     - Editing This Website/Who Can Edit.md
