@@ -7,30 +7,29 @@ If we have run out of slips, you can print one [from the PDFs here](../Public%20
 ??? note "Background Information"
     **Authority:** MakerLab Officers
 
-## Content pasted from the Procedure Sign in the MakerLab
-If you have a need to leave something in the MakerLab, and the Totes and Bins provided don’t fit your needs, you can do this on a temporary basis. To do this, you need to identify the object with a “Project Slip”  (see image below). 
+## Leaving Items in the MakerLab
+If you need to leave something in the MakerLab and the provided totes and bins do not fit your needs, you may do so temporarily. You must identify the object with a “Project Slip” (see below).
 
-The Project Slip needs to be filled out, clearly visible, and near the project. We suggest you physically attach the slip to the project if possible. 
+- The Project Slip must be filled out, clearly visible, and near the project. Physically attach the slip to the project if possible.
+- Maximum Pickup Period:
+    - **3D Print:** 1 week
+    - **Other:** 3 days
+- Date Format: `MM/DD/YYYY` (e.g. March 14, 1592 → 03/14/1592)
 
-The process used to determine what to do with an item when found in the MakerLab space is described in the flowchart below. MakerLab Officers are primarily responsible for performing this process. If the maximum pickup date is exceeded on a slip, it will either be corrected without notification, or treated as if the pickup date passed (at officer discretion).
+## Lost & Found Procedure
 
-Maximum Pickup Period - The maximum time between the current date and pickup date, (exclude current date, include pickup date)
-(e.g. 3 days:   03/01 - 03/04)
-
-- 3D Print: 1 week
-- Other: 3 days
-
+``` mermaid
+graph TD
+    start0@{ shape: sm-circ, label: "Small start" } --> B;
+    B[Non-MakerLab item found in MakerLab] --> C{{Is a project slip nearby?}};
+    C ---->|No| D[Post a photo in #lost-and-found and put it in the lost and found bin under the BN-20 near the gray cabinet. It can remain there for TWO WEEKS];
+    C ---->|Yes| E{{Does the label have contact info, a placed data, and a pickup date?}};
+    E ---->|No| F["Notify the person on the label (if possible)"];
+    F --> D;
+    E ---->|Yes| G{{Has the date on the label passed?}};
+    G ---->|No| H[Leave it be/set aside. Let person know if we moved project totes.];
+    H --> stop0@{ shape: framed-circle, label: "Stop" };
+    G ---->|Yes| F;
+    D --> I["If two weeks pass and it remains unclaimed, it will be handed over to APO Lost and Found, Pubsafe, or if it is a small project (like abandoned prints or other craft-like items) then it will be thrown away"];
+    I --> stop1@{ shape: framed-circle, label: "Stop" };
 ```
-Date Format:
-MM/DD/YYYY
-e.g. March 14, 1592 -> 03/14/1592
-```
-
-
-![](../assets/images/MakerLab_lost_and_found_flowchart.png)
-
-
-
-!!! bug "TODO - Fill Out Page"
-    - Add the diagram to this page using mermaid
-    - Port the procedure from the sign in MakerLab

@@ -52,7 +52,10 @@ nav:
     - Editing This Website/Who Can Edit.md
     - Editing This Website/Instructions.md
 
-
+plugins:
+  - search
+  - mermaid2:
+      version: 10.0.2
 
 
 extra_css:
@@ -89,6 +92,13 @@ markdown_extensions:
   - toc:
       permalink: true
 
+  - pymdownx.superfences:
+      # This uses the plugin to interpret mermaid blocks because we are not insiders for the built-in implementation.
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+
   # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
@@ -104,7 +114,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.superfences
+
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
