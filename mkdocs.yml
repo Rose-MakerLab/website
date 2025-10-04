@@ -53,7 +53,8 @@ nav:
     - Editing This Website/Instructions.md
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - mermaid2:
       version: 10.0.2
 

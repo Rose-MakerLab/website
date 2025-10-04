@@ -22,14 +22,14 @@ If you need to leave something in the MakerLab and the provided totes and bins d
 graph TD
     start0@{ shape: sm-circ, label: "Small start" } --> B;
     B[Non-MakerLab item found in MakerLab] --> C{{Is a project slip nearby?}};
-    C ---->|No| D[Post a photo in #lost-and-found and put it in the lost and found bin under the BN-20 near the gray cabinet. It can remain there for TWO WEEKS];
-    C ---->|Yes| E{{Does the label have contact info, a placed data, and a pickup date?}};
-    E ---->|No| F["Notify the person on the label (if possible)"];
+    C -->|No| D[Post a photo in #lost-and-found and put it in the lost and found bin under the BN-20 near the gray cabinet. It can remain there for TWO WEEKS];
+    C -->|Yes| E{{Does the label have contact info, a placed data, and a pickup date?}};
+    E -->|No| F["Notify the person on the label (if possible)"];
     F --> D;
-    E ---->|Yes| G{{Has the date on the label passed?}};
-    G ---->|No| H[Leave it be/set aside. Let person know if we moved project totes.];
+    E -->|Yes| G{{Has the date on the label passed?}};
+    G -->|No| H[Leave it be/set aside. Let person know if we moved project totes.];
     H --> stop0@{ shape: framed-circle, label: "Stop" };
-    G ---->|Yes| F;
+    G -->|Yes| F;
     D --> I["If two weeks pass and it remains unclaimed, it will be handed over to APO Lost and Found, Pubsafe, or if it is a small project (like abandoned prints or other craft-like items) then it will be thrown away"];
     I --> stop1@{ shape: framed-circle, label: "Stop" };
 ```
