@@ -26,37 +26,26 @@ theme:
 # To have it automatically construct the nav, you can simply omit this entire section.
 # Important notes: For paths, make sure you use a forward slash "/", a backslash "\" will work on windows, but not on the linux server deploying this.
 # ALWAYS USE FORWARD SLASH "/"
-nav:
-  - index.md 
-  - get_connected.md
-  - Available Tools:
-    - Available Tools/index.md
-    - Available Tools/laser_cutter.md
-  - Policies:
-    - Policies/index.md
-    - Policies/lost_and_found.md
-    - Policies/bic_kic_access.md
-  - makerlab_classes.md
-  - current_officers.md
-  - FAQ.md
-  - officer_weekly_meetings.md
-  - about_makerlab.md
-  - Constitution:
-    - MakerLab Constitution/index.md
-    - MakerLab Constitution/active_constitution.md
-  - Public Documents:
-    - Public Documents/index.md
-    - Public Documents/project_slip_printout.md
-  - Editing Website:
-    - Editing This Website/index.md
-    - Editing This Website/Who Can Edit.md
-    - Editing This Website/Instructions.md
+# nav:
+# Replaced this section. Instead use the .nav.yml documents to specify.
+
 
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      #prebuild_index: true #look into if this site gets really big.
+  - awesome-nav
   - mermaid2:
       version: 10.0.2
+  - redirects: # https://github.com/mkdocs/mkdocs-redirects
+      redirect_maps: {}
+  - minify: 
+      minify_html: true
+  - git-revision-date-localized: #This creates the little markers on the bottom of the page for when it was last uploaded.
+      enabled: true
+      type: timeago
+      enable_creation_date: true
+      fallback_to_build_date: true
 
 
 extra_css:

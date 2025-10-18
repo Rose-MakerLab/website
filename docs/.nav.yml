@@ -1,0 +1,33 @@
+# See Docs at: https://lukasgeiter.github.io/mkdocs-awesome-nav/reference/
+
+#title: Overall Site 
+preserve_directory_names: false       #False to clean up names (i.e. file-name.md => File Name)
+#hide: false                           #True if this folder should be hidden on page
+flatten_single_child_sections: false  #True to remove the folder and just replace it with the only element it contains
+ignore: "*.hidden.md" 
+
+sort:
+  direction: asc 
+  type: natural 
+  by: filename 
+  sections: last 
+  ignore_case: true 
+
+
+
+nav: 
+  - MakerLab Overview: index.md
+  - get_connected.md
+  - Available Tools
+  - Policies
+  - makerlab_classes.md
+  - current_officers.md
+  - FAQ.md
+  - officer_weekly_meetings.md
+  - about_makerlab.md
+  - MakerLab Constitution
+  - Public Documents
+  - Editing This Website
+
+# If false, the above tree is all that is shown at this level of the directory structure.
+append_unmatched: false 

@@ -1,4 +1,4 @@
-# Current Constitution
+# Active Constitution
 *Version 6.0, Instituted October 29, 2024*
 
 ## Preamble
@@ -373,7 +373,36 @@ There shall be no dues or fees required to be a member of this organization. If 
     - The President may veto any expenditure that is not between $50 and $500 dollars and for the Lab. The veto process for these expenditures follows item 5.
     - In the case of either the President, Treasurer, or Lab Director denying or vetoing a purchase, after a thorough discussion with both sides presenting evidence, 2/3 of the Officers may vote to override the decision.
 
-### POSTER THING HERE
+``` mermaid
+graph TB
+    A([Perform Purchase Request]); 
+    A -->      B[[ Treasury Approval]];
+    B -->|Yes| C{ Under $50?};
+    B --> |No| D[[ Overturned by 2/3 of Officers?]];
+
+    C --> |No| E{ Under $500 and a lab related purchase?};
+    C -->|Yes| F[/ Presidential Veto?/];
+
+    D -->|Yes| Z([ Item Purchase]);
+    D --> |No| Y([ Denied]);
+
+    E --> |No| G[[ Presidential Approval]];
+    E -->|Yes| H[[ Lab Director Approval]];
+
+    F --> |No| I[/ Veto by 2/3 Officers?/];
+    F -->|Yes| D;
+
+    G --> |No| D;
+    G -->|Yes| I;
+
+    H --> |No| D;
+    H -->|Yes| I;
+
+    I --> |No| Z;
+    I -->|Yes| Y;
+    
+```
+
 ### VIII.4) Dissolution
 Upon dissolution of the organization, all remaining funds and assets are to be folded into the BIC and KIC to be used at the discretion of the Innovation Center Leadership.
 
@@ -412,12 +441,12 @@ The number of faculty advisors shall be 2. The record of the current advisors sh
     Faculty advisors have the power to rule on any scenario or dispute that is not explicitly addressed by the constitution. The advisors have the power to interpret the constitution as necessary.
 
 ## Article XI: Amendments
-## XI.1) Proposal
+### XI.1) Proposal
 - Any active member may propose an amendment to this constitution by submitting it to the President or raising it during a public meeting.
 - The proposal shall be reviewed by the Officers and approved via a 2/3 vote of the Officers.
 - Once approved, the Communications Officer will distribute it to all active members for ratification.
 - All amendments must not be contrary to the Institute’s regulations or policies.
-## XI.2) Voting
+### XI.2) Voting
 - Voting will be conducted by secret ballot distributed by the Communications Officer following the same procedure as in a general election.
 - Once voting has concluded, the Communications Officer will tally the votes and share the results with all MakerLab members
 - 2/3 of votes received must be “Yes” votes for the amendment to be ratified.
@@ -425,7 +454,7 @@ The number of faculty advisors shall be 2. The record of the current advisors sh
 ## Appendix A: Sample partnership agreement
 This is a Partnership Agreement between the Rose-Hulman student organizations of MakerLab and ___ (the Partner).
 
-Whereas MakerLab and the Partner both share in the same goal to ___. MakerLab agrees to givethe Partner certain benefits in exchange for the Partner’s adherence to this agreement.
+Whereas MakerLab and the Partner both share in the same goal to ___. MakerLab agrees to give the Partner certain benefits in exchange for the Partner’s adherence to this agreement.
 
 - Use of MakerLab’s equipment, specifically including the Laser Cutter and the 3d Printers.
 - Vinyl for prints under 2 feet long.

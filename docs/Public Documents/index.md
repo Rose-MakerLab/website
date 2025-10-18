@@ -5,3 +5,4 @@ This is a page that notes all of the MakerLab Documents that are publicly availa
 
 ## Available Documents
 - [Project Slips](project_slip_printout.md)
+- [Partnership Agreement](partnership_agreement.md)
