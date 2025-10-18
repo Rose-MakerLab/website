@@ -16,7 +16,7 @@ sort:
 
 
 nav: 
-  - index.md
+  #- index.md
   - introduction.md
   - article1.md
   - article2.md

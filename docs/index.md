@@ -1,13 +1,15 @@
 # MakerLab Overview
 
-![](./assets/logo.png)
+![](./assets/logo.png){: align=right : width=400}
 
 ## What is the MakerLab?
-MakerLab is a BIC team that provides tools and a work area in the KIC to enable the creation of Rose-Hulman students' personal projects.
+MakerLab is a BIC team that provides tools and a work area in the KIC to enable the creation of Rose-Hulman students' personal projects. We are located just past the KIC's front doors to the immediate right. We are a distinct group from Kic3D and the BIC/KIC.
 
-[More Information Here.](about_makerlab.md)
 
 ## Gaining Access to the MakerLab
+
+For an overview of classes, [look here](./Classes/required_training.md) but this is a good general overview:
+
 1. Take the BIC/KIC access quizzes on Moodle
     - Take the Online Training only takes 1-2 hrs and is found [by following this link](https://moodle.rose-hulman.edu/course/view.php?id=118553#).
     - For the final group selection step, say that you are a member of the `MakerLab` team.

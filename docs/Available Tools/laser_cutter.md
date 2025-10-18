@@ -11,6 +11,8 @@ A BossLaser HP-2440 CO~2~ laser used for cutting and engraving mostly flat mater
 
 ^^**Location:**^^ Center of the PPE area, across from the main workbench.
 
+^^**Relevant Officer:**^^ [Laser Manager](../current_officers.md#officers)
+
 ## Capabilities
 
 - Cut & Engrave Flat Materials including wood and acrylic
@@ -21,12 +23,11 @@ A BossLaser HP-2440 CO~2~ laser used for cutting and engraving mostly flat mater
 
 ## Getting  Started
 
-Take The Required Classes:
+Take The Required Class(s):
 
-1. [Welcome To MakerLab](../makerlab_classes.md)
-2. [Intro To Laser Cutting](../makerlab_classes.md)
+- [Intro To Laser Cutting](../Classes/required_training.md#intro-to-laser-cutting)
 
-Contact the [Laser Officer](../current_officers.md#current-officers) if you need assistance.
+Contact the [Laser Officer](../current_officers.md#officers) if you need assistance.
 
 ## Related Classes
 
@@ -34,8 +35,9 @@ Below is a list of classes that relate to the laser cutter, some of which are ne
 
 | Class Name | Required? | Type | Purpuse |
 | :--------- | :-------: | :--: | :------ |
-| [Welcome To MakerLab](../makerlab_classes.md)                     | Yes | Training | Grants Access To MakerLab          |
-| [Intro To Laser Cutting](../makerlab_classes.md)                  | Yes | Training | Allows you to use the Laser Cutter |
-| [Message Laser Officer](../current_officers.md#current-officers)  | No  | Any      | Assistance on niche projects or advanced capabilities |
+| [Intro To Laser Cutting](../Classes/required_training.md#intro-to-laser-cutting)  | Yes | Training | Allows you to use the Laser Cutter |
+| [Message Laser Officer](../current_officers.md#officers)                          | No  | Any      | Assistance on niche projects or advanced capabilities |
 
 ## Past Projects
+
+Add this later.

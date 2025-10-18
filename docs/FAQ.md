@@ -84,7 +84,7 @@ When are officer elections held?
 End of February! Once elected, officers-in-training will be trained by the past officer over Spring Quarter. If you want to be an officer but don't feel you know enough, don't worry, we'll teach you.
 
 ## How do I invite people to the Discord?
-- Use the invite link: [discord.gg/tzBHVw2](discord.gg/tzBHVw2)
+- Use the invite link: [discord.gg/tzBHVw2](https://discord.gg/tzBHVw2)
 - Send them this website, or have them scan the QR code: [Join Discord Page](get_connected.md#join-discord)
 - Have them join by scanning a QR code in the Makerlab Space.
 

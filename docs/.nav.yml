@@ -22,12 +22,11 @@ nav:
   - Policies
   - Classes
   - current_officers.md
-  - FAQ.md
   - officer_weekly_meetings.md
-  - about_makerlab.md
   - MakerLab Constitution
   - Public Documents
   - Editing This Website
+  - FAQ.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
 append_unmatched: false 
