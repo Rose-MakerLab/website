@@ -17,7 +17,10 @@ sort:
 
 nav: 
   - index.md
-  - required_classes.md
+  - required_training.md
+  - advanced_training.md
+  - projects.md
+  - social_events.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
-append_unmatched: true
+append_unmatched: false
