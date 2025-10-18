@@ -13,7 +13,7 @@ MakerLab is a BIC team that provides tools and a work area in the KIC to enable 
     - For the final group selection step, say that you are a member of the `MakerLab` team.
 2. Join the [MakerLab Discord](get_connected.md#join-discord).
 3. Take a Welcome To MakerLab Class offered by MakerLab
-    - [Information on how MakerLab classes are run](makerlab_classes.md)
+    - [Information on how MakerLab classes are run](./Classes/index.md)
 
 
 !!! bug "TODO - Add additional details"

@@ -17,6 +17,7 @@ sort:
 
 nav: 
   - index.md
+  - partnership_agreement.md
   - project_slip_printout.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
