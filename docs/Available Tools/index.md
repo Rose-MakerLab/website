@@ -1,5 +1,7 @@
 # Overview
 
+![](../assets/MakerLab_layout.png){: align=right : width=400}
+
 !!! bug "TODO - Note what is in the MakerLab"
     Include the following information:
     
