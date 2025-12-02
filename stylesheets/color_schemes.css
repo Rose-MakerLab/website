@@ -1,0 +1,49 @@
+[data-md-color-scheme="makerlab-light"] {
+  --md-primary-fg-color:        #EE0F0F;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+
+  --md-accent-fg-color: #b92324;
+
+  /* Base surfaces & text */
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #0f0f0f;
+   --md-default-fg-color--light: #680f0f;
+  --md-default-fg-color--lighter: #8e3838;
+  --md-typeset-color: #111111;
+  --md-typeset-headings-color: #111111; /* headings dark in light mode */
+
+  /* Links & code */
+  --md-typeset-a-color: #b92324;
+  --md-code-bg-color: #f6f8fa;
+  --md-code-fg-color: #1f2328;
+}
+
+[data-md-color-scheme="makerlab-dark"] {
+  --md-primary-fg-color:        #b92324;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+  
+
+  --md-accent-fg-color: #b92324;
+
+  /* Base surfaces & text */
+  --md-default-bg-color: #291e1e;  /* deep neutral, not pure black */
+  --md-default-fg-color: #e6e6e6;
+  --md-default-fg-color--light: #ffdfdf;
+  --md-default-fg-color--lighter: #fff0f0;
+  --md-typeset-color: #eeeeee;
+  --md-typeset-headings-color: #ffdfdf; /* headings white in dark mode */
+
+  /* Links & code */
+  --md-typeset-a-color: #b92324;
+  --md-code-bg-color: #221616;
+  --md-code-fg-color: #e6edf3;
+
+  /* Typeset `kbd` color shades */
+  --md-typeset-kbd-color:            hsla(var(--md-hue), 15%, 90%, 0.12);
+  --md-typeset-kbd-accent-color:     hsla(var(--md-hue), 15%, 90%, 0.2);
+  --md-typeset-kbd-border-color:     hsla(var(--md-hue), 15%, 14%, 1);
+
+
+}
