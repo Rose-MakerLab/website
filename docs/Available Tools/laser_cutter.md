@@ -27,7 +27,7 @@ Take The Required Class(s):
 
 - [Intro To Laser Cutting](../Classes/required_training.md#intro-to-laser-cutting)
 
-Contact the [Laser Officer](../current_officers.md#officers) if you need assistance.
+Contact the [Laser Officer](../current_officers.md#officers) if you need further assistance.
 
 ## Related Classes
 
@@ -37,6 +37,24 @@ Below is a list of classes that relate to the laser cutter, some of which are ne
 | :--------- | :-------: | :--: | :------ |
 | [Intro To Laser Cutting](../Classes/required_training.md#intro-to-laser-cutting)  | Yes | Training | Allows you to use the Laser Cutter |
 | [Message Laser Officer](../current_officers.md#officers)                          | No  | Any      | Assistance on niche projects or advanced capabilities |
+
+## Documentation
+
+### MakerLab Docs
+The following docs are hosted on MakerLab's Discord server on a channel you will only have access to once you are trained to use the Laser Cutter.
+
+[Laser Cutter Documentation](https://discord.com/channels/639225419639291914/639894435844325418/1436578282773545011){  .md-button .md-button--primary }
+
+[Allowed Materials](https://discord.com/channels/639225419639291914/639894435844325418/1436089063554941079){  .md-button .md-button--seccondary }
+
+### Lightburn Docs
+[Lightburn Documentation](https://docs.lightburnsoftware.com/latest/Reference/){  .md-button .md-button--primary }
+
+### Lasercutter Docs
+[All HP-2440 Documentation](https://bosslaser.com/resources/?_keyword_search=hp%20series&_resources_category=manuals-and-guides){ .md-button .md-button--primary }
+
+[Quick Start Guide](https://bosslaser.com/wp-content/uploads/2024/06/QM-855-916-Quick-Start-Guide-HP-Machines.pdf){  .md-button .md-button--seccondary }
+[User Manual](https://bosslaser.com/wp-content/uploads/2024/06/hp-series-user-manual.pdf){  .md-button .md-button--seccondary }
 
 ## Past Projects
 
